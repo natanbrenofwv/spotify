@@ -1,0 +1,72 @@
+body{
+ 
+    background-color:rgb(56, 136, 136);
+    color:aliceblue;
+}
+
+#login{
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.name input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background: color #1e1e1e; 
+    color: #b6b6b6;
+    margin-bottom: 15px;
+}
+
+
+
+.email input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background: color #1e1e1e; 
+    color: #b6b6b6;
+}
+
+.senha input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background: color #1e1e1e; 
+    color: #b6b6b6;
+    margin-top: 15px;   
+}
+
+.entrar input{
+    cursor:  pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: seagreen;
+    color:cyan
+}
+
+input::placeholder {
+    color: #b6b6b6;
+}
+
+.caixa {
+    margin-top: 50px;
+}
+
+.caixa img{
+    width: 120px;
+}
+
+
+

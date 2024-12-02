@@ -1,0 +1,110 @@
+body{
+ 
+    background-color:rgba(50, 53, 53, 0.781);
+    color:aliceblue;
+}
+
+#login{
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.name input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background: color #1e1e1e; 
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+
+
+.email input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background: color #1e1e1e; 
+    color: #000000;
+}
+
+.senha input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background: color #1e1e1e; 
+    color: #000000;
+    margin-top: 15px;   
+}
+
+.entrar input{
+    cursor:  pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: seagreen;
+    color:rgb(255, 255, 255)
+}
+
+input::placeholder {
+    color: #b6b6b6;
+}
+
+.caixa {
+    margin-top: 50px;
+}
+
+.caixa img{
+    width: 200px;
+}
+
+.home img{
+    width: 100px;
+}
+
+.home {
+    background-color:#667e7e;
+    border: none; /* Remove bordas */
+    border-radius: 20px; /* Bordas arredondadas */
+    padding: 10px 20px;
+   
+}
+
+button#go-to-profile {
+    
+    background-color: #8890d4; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove bordas */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 10px 10px; /* Espaçamento interno */
+    font-size: 11px; /* Tamanho do texto */
+    cursor: pointer; /* Cursor ao passar o mouse */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+    
+}
+
+
+button#minha-area {
+     /* Fixa o botão na tela */
+    bottom: 560px; /* Distância da parte inferior da tela */
+    right: 200px; /* Distância da lateral direita da tela */
+    background-color: #8890d4; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove bordas */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 10px 10px; /* Espaçamento interno */
+    font-size: 11px; /* Tamanho do texto */
+    cursor: pointer; /* Cursor ao passar o mouse */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+   
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>login</title>
+</head>
+<body>
+    <div id="login">
+        <div class="caixa">
+            <img src="img/imagem.png" alt="Logo">
+            <h1>Login</h1>
+
+    
+            <div action="processa_cadastro.php" method="POST">
+                
+                <!-- Email -->
+                <div class="email">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                
+                <!-- Senha -->
+                <div class="senha">
+                    <input type="password" name="senha" placeholder="Senha" required>
+                </div>
+                
+        
+                <!-- Botão e Link -->
+                <div class="entrar">
+                    <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se .</a></p>
+                    <input type="submit" value="Entrar" >
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

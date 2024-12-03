@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <title>Catálogo de Músicas</title>
+  
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <div class="home"> 
+    <img src="img/imagem.png" alt="Logo">
+    <button id="go-to-profile" onclick="window.location.href='perfil.html'">Ir para Perfil</button>
+    <button id="minha-area" onclick="window.location.href='minha_area.html'">Ir para Minha Área</button>
+  </div>
+
+  <!-- Título -->
+  <h2>Adicionar Música ao Catálogo</h2>
+
+  <!-- Formulário -->
+  <form id="formMusica">
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" name="titulo" placeholder="Digite o título" required>
+
+    <label for="artista">Artista:</label>
+    <input type="text" id="artista" name="artista" placeholder="Digite o artista" required>
+
+    <label for="genero">Gênero:</label>
+    <input type="text" id="genero" name="genero" placeholder="Digite o gênero" required>
+
+    <label for="duracao">Duração (minutos):</label>
+    <input type="number" id="duracao" name="duracao" placeholder="Ex: 3.5" step="0.01" required>
+
+    <label for="link">Link da música:</label>
+    <input type="url" id="link" name="link" placeholder="Cole o link do áudio" required>
+
+    <button type="button" onclick="adicionarMusica()">Adicionar ao Catálogo</button>
+  </form>
+
+  <!-- Catálogo de Músicas -->
+  <h3>Catálogo de Músicas</h3>
+  <div id="catalogoMusicas">
+    <!-- Músicas serão exibidas aqui -->
+  </div>
+  <div id="catalogoMusicas">
+    <!-- Exemplo de música -->
+    
+</div>
+  <script src="home.js"></script>
+</body>
+</html>
